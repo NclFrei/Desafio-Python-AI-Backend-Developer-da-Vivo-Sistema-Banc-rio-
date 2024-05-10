@@ -8,7 +8,19 @@ Neste repositório, você encontrará a resolução do primeiro Desafio Python A
 - Extrato: Lista todos os depósitos e saques realizados na conta, além de exibir o saldo atual da conta.
 
 ## Instruções de Uso:
-1. Clone este repositório para o seu ambiente local.
-2. Execute o arquivo `sistema_bancario.py`.
-3. Siga as instruções no menu para realizar depósitos, saques ou visualizar o extrato.
-4. Siga as instruções no menu para navegar entre as operações.
+
+**Iniciar o Sistema:**
+- Abra um terminal ou prompt de comando.
+
+**Opções Disponíveis no Menu:**
+- `[d] Depositar`: Permite ao usuário depositar valores positivos na conta bancária.
+- `[s] Sacar`: Permite ao usuário realizar saques, com limite de 3 saques diários e R$ 500,00 por saque.
+- `[e] Extrato`: Exibe um extrato com todas as transações realizadas e o saldo atual da conta.
+- `[q] Sair`: Encerra o programa.
+
+**Realizar Operações Bancárias:**
+- Selecione a opção desejada digitando a letra correspondente seguida da tecla Enter.
+- Siga as instruções apresentadas no terminal para concluir cada operação escolhida.
+
+**Encerrar o Programa:**
+- Para sair do sistema, selecione a opção `[q] Sair` no menu.
